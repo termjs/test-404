@@ -1,0 +1,33 @@
+/*
+DESIGN GUIDE
+
+Colors:
+    - COLOR NAME: COLOR CODE
+
+Spacing:
+    8 16 24 32 40 48 56 64 72 80 88 96 104 ...
+
+Font:
+    ...
+
+    
+*/
+
+:root {
+  --main-text: #070707;
+  --main-bg: #ffffff;
+  --electric: #83fbf5;
+  --green: #89f5bc;
+  --citrus: #cfff5a;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: clip;
+  background-color: var(--main-bg);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}

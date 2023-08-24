@@ -1,0 +1,93 @@
+/*****************************************/
+/* LANDING */
+/*****************************************/
+
+.section-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section {
+  margin: 0 3.125rem;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.secondary-text {
+  font-size: 2.188rem;
+  font-weight: 500;
+  padding: 0.625rem;
+}
+
+.main-text {
+  font-size: 2.813rem;
+  font-weight: 700;
+  padding: 0.625rem;
+}
+
+.inform-section {
+  color: white;
+  height: 28.125rem;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 3.125rem 1.875rem;
+}
+
+.inform-section.error-type {
+  background: black;
+  display: flex;
+  max-width: 20.625rem;
+}
+
+.inform-section.error-data {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 0.063rem black solid;
+  background-color: #CFFF5A;
+  background-image: url('/404_background.svg');
+  background-position: center;
+  color: black;
+  max-width: 700px;
+  padding: 0 1.25rem;
+}
+
+.hero-link {
+  display: flex;
+  align-items: flex-end;
+  width: fit-content;
+  gap: 2rem;
+  font-weight: 400;
+  margin-top: auto;
+  margin-left: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.563rem;
+}
+
+.link-arrows {
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.hero-link-icon {
+  width: 3rem;
+  height: 3rem;
+  transition: transform 0.3s ease;
+  filter: invert(100%);
+}
+
+.hero-link:hover .hero-link-icon {
+  transform: translate(100%, -100%);
+}
+
+.hero-link-icon:nth-child(2) {
+  position: absolute;
+  top: 100%;
+  left: -100%;
+}

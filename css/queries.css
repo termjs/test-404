@@ -1,0 +1,56 @@
+/*
+
+1em = 16px
+
+*/
+
+@media (max-width: 47.813em) {
+
+    .section {
+        flex-direction: column-reverse;
+        margin: 3.125rem;
+    }
+
+    .inform-section.error-type {
+        max-width: inherit;
+    }
+
+    .secondary-text {
+        max-width: 230px;
+    }
+
+    .inform-section.error-data {
+        padding: 50px 30px;
+    }
+
+    .secondary-text {
+        padding-bottom: 3rem;
+    }
+
+
+    .inform-section {
+        height: auto;
+    }
+}
+
+@media (max-width: 28.125em) {
+    .main-text {
+        font-size: 2rem;
+    }
+
+    .secondary-text {
+        font-size: 1.5rem;
+    }
+
+    .hero-link {
+        font-size: 1rem;
+        gap: 1rem;
+    }
+
+    .hero-link-icon,
+    .link-arrows {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
